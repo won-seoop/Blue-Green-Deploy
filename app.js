@@ -2,6 +2,7 @@ const express = require('express');
 const app = express();
 const PORT = 3000;
 
+// 드가자ㄴ
 app.get('/health', (req, res) => {
     const now = new Date();
     const hh = String(now.getHours()).padStart(2, '0');
